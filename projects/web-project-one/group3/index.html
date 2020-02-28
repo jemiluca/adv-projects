@@ -97,45 +97,137 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters">
 
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('data:image/jpeg;base64,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');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Register to know about the course</h2>
-          <p class="lead mb-0">Create a form that accepts first name, last name, email, city and about me with submit button</p>
-          <br />
-          <p>change the image on the right and add blue border to the image you added. Find some image that is about website.</p>
+          <form class="needs-validation" novalidate>
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                <label for="validationCustom01">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationCustom02">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationCustomUsername">Username</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  </div>
+                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                  <div class="invalid-feedback">
+                    Please choose a username.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationCustom03">City</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationCustom04">State</label>
+                <select class="custom-select" id="validationCustom04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>...</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationCustom05">Zip</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                  Please provide a valid zip.
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </form>
+          
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+        
+      <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>Carousel here</h2>
-          <p class="lead mb-0">Add a carousel here from: https://getbootstrap.com/docs/4.4/components/carousel/</p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
         </div>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Allow me to have tabs &amp; shine</h2>
-          <p>Uncomment the code below[you will see it in the code]. You will see home, profile, contact. Change the tab titles to: Desktop, Tablet, Mobile.</p>
-          <p>Write about each in concept of web programming / responsive design..</p>
           <p class="lead mb-0">
-            <!--
+    
 
               <ul class="nav nav-tabs" id="myTab" role="tablist">
   <li class="nav-item">
-    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+    <a class="nav-link active" id="dewsktop-tab" data-toggle="tab" href="#desktop" role="tab" aria-controls="desktop" aria-selected="true">desktop</a>
+    
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+    <a class="nav-link" id="tablet-tab" data-toggle="tab" href="#tablet" role="tab" aria-controls="tablet" aria-selected="false">tablet</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+    <a class="nav-link" id="mobile-tab" data-toggle="tab" href="#mobile" role="tab" aria-controls="mobile" aria-selected="false">mobile</a>
   </li>
 </ul>
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+  <div class="tab-pane fade show active" id="desktop" role="tabpanel" aria-labelledby="desktop-tab"><p>the design should be portable to all desktop size and resolution</p></div>
+  
+  <div class="tab-pane fade" id="tablet" role="tabpanel" aria-labelledby="tablet-tab"><p>the design should be portable to all tablet size and resolution</p></div>
+  
+  <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="mobile-tab"><p>the design should be portable to all mobile size and resolution</p></div>
 </div>
 
 
